@@ -1,0 +1,2263 @@
+{
+  "escenario": {
+    "ancho": 15,
+    "alto": 15,
+    "n_agentes": 4,
+    "n_sucias_iniciales": 4,
+    "n_objetos_pesados": 1
+  },
+  "ticks": [
+    {
+      "tick": 0,
+      "asignaciones": {
+        "a1": {
+          "tipo": "limpieza",
+          "x": 6,
+          "y": 5
+        },
+        "a2": {
+          "tipo": "limpieza",
+          "x": 12,
+          "y": 2
+        },
+        "a3": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a4": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        }
+      },
+      "acciones_conjuntas": [
+        {
+          "obj": "obj1",
+          "agentes": [
+            "a3",
+            "a4"
+          ]
+        }
+      ],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 4,
+      "energia_por_agente": {
+        "a1": 99,
+        "a2": 99,
+        "a3": 138,
+        "a4": 138
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 4,
+        "tasa_ocupacion": 1.0,
+        "energia_promedio": 120.0,
+        "cooperaciones_activas": 1,
+        "conflictos_potenciales": 4,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 1,
+      "asignaciones": {
+        "a1": {
+          "tipo": "limpieza",
+          "x": 6,
+          "y": 5
+        },
+        "a2": {
+          "tipo": "limpieza",
+          "x": 12,
+          "y": 2
+        },
+        "a3": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a4": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        }
+      },
+      "acciones_conjuntas": [
+        {
+          "obj": "obj1",
+          "agentes": [
+            "a3",
+            "a4"
+          ]
+        }
+      ],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 98,
+        "a2": 98,
+        "a3": 136,
+        "a4": 136
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 118.5,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 2,
+      "asignaciones": {
+        "a1": {
+          "tipo": "limpieza",
+          "x": 6,
+          "y": 5
+        },
+        "a2": {
+          "tipo": "limpieza",
+          "x": 12,
+          "y": 2
+        },
+        "a3": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a4": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        }
+      },
+      "acciones_conjuntas": [
+        {
+          "obj": "obj1",
+          "agentes": [
+            "a3",
+            "a4"
+          ]
+        }
+      ],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 97,
+        "a2": 97,
+        "a3": 134,
+        "a4": 134
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 117.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 3,
+      "asignaciones": {
+        "a1": {
+          "tipo": "limpieza",
+          "x": 6,
+          "y": 5
+        },
+        "a2": {
+          "tipo": "limpieza",
+          "x": 12,
+          "y": 2
+        },
+        "a3": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a4": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        }
+      },
+      "acciones_conjuntas": [
+        {
+          "obj": "obj1",
+          "agentes": [
+            "a3",
+            "a4"
+          ]
+        }
+      ],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 96,
+        "a2": 96,
+        "a3": 132,
+        "a4": 132
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 115.5,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 4,
+      "asignaciones": {
+        "a1": {
+          "tipo": "limpieza",
+          "x": 6,
+          "y": 5
+        },
+        "a3": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a4": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        }
+      },
+      "acciones_conjuntas": [
+        {
+          "obj": "obj1",
+          "agentes": [
+            "a3",
+            "a4"
+          ]
+        }
+      ],
+      "recargas": [],
+      "completadas": [
+        {
+          "tipo": "limpieza",
+          "x": 12,
+          "y": 2,
+          "agente": "a2",
+          "tick": 4
+        }
+      ],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 95,
+        "a2": 93,
+        "a3": 130,
+        "a4": 130
+      },
+      "metricas": {
+        "tareas_pendientes": 5,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 114.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 5,
+      "asignaciones": {
+        "a1": {
+          "tipo": "limpieza",
+          "x": 6,
+          "y": 5
+        },
+        "a3": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a4": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a2": {
+          "tipo": "limpieza",
+          "x": 9,
+          "y": 11
+        }
+      },
+      "acciones_conjuntas": [
+        {
+          "obj": "obj1",
+          "agentes": [
+            "a3",
+            "a4"
+          ]
+        }
+      ],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 94,
+        "a2": 92,
+        "a3": 128,
+        "a4": 128
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 1,
+        "tasa_ocupacion": 0.25,
+        "energia_promedio": 112.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 6,
+      "asignaciones": {
+        "a1": {
+          "tipo": "limpieza",
+          "x": 6,
+          "y": 5
+        },
+        "a3": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a4": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a2": {
+          "tipo": "limpieza",
+          "x": 9,
+          "y": 11
+        }
+      },
+      "acciones_conjuntas": [
+        {
+          "obj": "obj1",
+          "agentes": [
+            "a3",
+            "a4"
+          ]
+        }
+      ],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 93,
+        "a2": 91,
+        "a3": 126,
+        "a4": 126
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 110.5,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 7,
+      "asignaciones": {
+        "a3": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a4": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a2": {
+          "tipo": "limpieza",
+          "x": 9,
+          "y": 11
+        }
+      },
+      "acciones_conjuntas": [
+        {
+          "obj": "obj1",
+          "agentes": [
+            "a3",
+            "a4"
+          ]
+        }
+      ],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [
+        {
+          "tarea": {
+            "tipo": "limpieza",
+            "x": 6,
+            "y": 5
+          },
+          "agente": "a1",
+          "ticks_invertidos": 7,
+          "causa": "averia"
+        }
+      ],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 90,
+        "a3": 124,
+        "a4": 124
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 109.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 8,
+      "asignaciones": {
+        "a3": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a4": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a2": {
+          "tipo": "limpieza",
+          "x": 9,
+          "y": 11
+        }
+      },
+      "acciones_conjuntas": [
+        {
+          "obj": "obj1",
+          "agentes": [
+            "a3",
+            "a4"
+          ]
+        }
+      ],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 89,
+        "a3": 122,
+        "a4": 122
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 107.5,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 9,
+      "asignaciones": {
+        "a3": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a4": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a2": {
+          "tipo": "limpieza",
+          "x": 9,
+          "y": 11
+        }
+      },
+      "acciones_conjuntas": [
+        {
+          "obj": "obj1",
+          "agentes": [
+            "a3",
+            "a4"
+          ]
+        }
+      ],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 88,
+        "a3": 120,
+        "a4": 120
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 106.25,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 10,
+      "asignaciones": {
+        "a3": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a4": {
+          "tipo": "transporte",
+          "obj": "obj1"
+        },
+        "a2": {
+          "tipo": "limpieza",
+          "x": 9,
+          "y": 11
+        }
+      },
+      "acciones_conjuntas": [
+        {
+          "obj": "obj1",
+          "agentes": [
+            "a3",
+            "a4"
+          ]
+        }
+      ],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 87,
+        "a3": 118,
+        "a4": 120
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 105.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 11,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 9,
+          "y": 11
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [
+        {
+          "tipo": "transporte",
+          "obj": "obj1",
+          "agentes": [
+            "a3",
+            "a4"
+          ],
+          "tick": 11
+        }
+      ],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 86,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 104.25,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 12,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 9,
+          "y": 11
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 85,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 101.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 13,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 9,
+          "y": 11
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 84,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 100.75,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 14,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 9,
+          "y": 11
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 83,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 100.5,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 15,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 9,
+          "y": 11
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 82,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 100.25,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 16,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 9,
+          "y": 11
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 81,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 5,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 100.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 17,
+      "asignaciones": {},
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [
+        {
+          "tipo": "limpieza",
+          "x": 9,
+          "y": 11,
+          "agente": "a2",
+          "tick": 17
+        }
+      ],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 78,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 5,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 99.75,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 18,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 11,
+          "y": 6
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 77,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 1,
+        "tasa_ocupacion": 0.25,
+        "energia_promedio": 99.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 19,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 11,
+          "y": 6
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 76,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 98.75,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 20,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 11,
+          "y": 6
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 75,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 98.5,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 21,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 11,
+          "y": 6
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 74,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 98.25,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 22,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 11,
+          "y": 6
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 73,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 98.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 23,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 11,
+          "y": 6
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 72,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 97.75,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 24,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 11,
+          "y": 6
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 71,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 97.5,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 25,
+      "asignaciones": {},
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [
+        {
+          "tipo": "limpieza",
+          "x": 11,
+          "y": 6,
+          "agente": "a2",
+          "tick": 25
+        }
+      ],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 68,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 4,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 97.25,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 26,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 6,
+          "y": 5
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 67,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 3,
+        "agentes_trabajando": 1,
+        "tasa_ocupacion": 0.25,
+        "energia_promedio": 96.5,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 27,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 6,
+          "y": 5
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 66,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 3,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 96.25,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 28,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 6,
+          "y": 5
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 65,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 3,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 96.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 29,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 6,
+          "y": 5
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 64,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 3,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 95.75,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 30,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 6,
+          "y": 5
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 63,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 3,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 95.5,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 31,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 6,
+          "y": 5
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 62,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 3,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 95.25,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 32,
+      "asignaciones": {},
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [
+        {
+          "tipo": "limpieza",
+          "x": 6,
+          "y": 5,
+          "agente": "a2",
+          "tick": 32
+        }
+      ],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 59,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 3,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 95.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 33,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 5,
+          "y": 5
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 58,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 2,
+        "agentes_trabajando": 1,
+        "tasa_ocupacion": 0.25,
+        "energia_promedio": 94.25,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 34,
+      "asignaciones": {},
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [
+        {
+          "tipo": "limpieza",
+          "x": 5,
+          "y": 5,
+          "agente": "a2",
+          "tick": 34
+        }
+      ],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 55,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 2,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 94.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 35,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 2,
+          "y": 12
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 54,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 1,
+        "agentes_trabajando": 1,
+        "tasa_ocupacion": 0.25,
+        "energia_promedio": 93.25,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 36,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 2,
+          "y": 12
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 53,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 1,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 93.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 37,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 2,
+          "y": 12
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 52,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 1,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 92.75,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 38,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 2,
+          "y": 12
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 51,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 1,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 92.5,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 39,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 2,
+          "y": 12
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 50,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 1,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 92.25,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 40,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 2,
+          "y": 12
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 49,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 1,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 92.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 41,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 2,
+          "y": 12
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 48,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 1,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 91.75,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 42,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 2,
+          "y": 12
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 47,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 1,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 91.5,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 43,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 2,
+          "y": 12
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 46,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 1,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 91.25,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 44,
+      "asignaciones": {
+        "a2": {
+          "tipo": "limpieza",
+          "x": 2,
+          "y": 12
+        }
+      },
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 45,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 1,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 91.0,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    },
+    {
+      "tick": 45,
+      "asignaciones": {},
+      "acciones_conjuntas": [],
+      "recargas": [],
+      "completadas": [
+        {
+          "tipo": "limpieza",
+          "x": 2,
+          "y": 12,
+          "agente": "a2",
+          "tick": 45
+        }
+      ],
+      "huerfanas": [],
+      "conflictos_potenciales": 0,
+      "energia_por_agente": {
+        "a1": 92,
+        "a2": 42,
+        "a3": 111,
+        "a4": 115
+      },
+      "metricas": {
+        "tareas_pendientes": 1,
+        "agentes_trabajando": 0,
+        "tasa_ocupacion": 0.0,
+        "energia_promedio": 90.75,
+        "cooperaciones_activas": 0,
+        "conflictos_potenciales": 0,
+        "agentes_recargando": 0
+      }
+    }
+  ],
+  "eventos": [
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 0,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 1,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 2,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "nueva_sucia",
+      "tick": 3,
+      "x": 2,
+      "y": 12
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 3,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 4,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 5,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 6,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "averia",
+      "tick": 7,
+      "agente": "a1",
+      "causa": "evento"
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 7,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 8,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 9,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 10,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 11,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 12,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 13,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 14,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "nueva_sucia",
+      "tick": 15,
+      "x": 11,
+      "y": 6
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 15,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 16,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 17,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 18,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 19,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 20,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 21,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 22,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 23,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 24,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 25,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 26,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 27,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 28,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 29,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 30,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 31,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 32,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 33,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 34,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 35,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 36,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 37,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 38,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 39,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 40,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 41,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 42,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 43,
+      "id": "om1",
+      "desde": [
+        7,
+        9
+      ],
+      "hacia": [
+        7,
+        8
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 44,
+      "id": "om1",
+      "desde": [
+        7,
+        8
+      ],
+      "hacia": [
+        7,
+        7
+      ]
+    },
+    {
+      "tipo": "obstaculo_movido",
+      "tick": 45,
+      "id": "om1",
+      "desde": [
+        7,
+        7
+      ],
+      "hacia": [
+        7,
+        9
+      ]
+    }
+  ],
+  "resumen": {
+    "ticks_totales": 46,
+    "tareas_completadas": 7,
+    "tareas_huerfanas": 1,
+    "trabajo_desperdiciado_total": 7,
+    "energia_consumida_total": 120,
+    "cooperaciones_completadas": 1,
+    "terminacion": "limpieza_completa"
+  }
+}
