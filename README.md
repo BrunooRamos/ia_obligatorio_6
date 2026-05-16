@@ -74,6 +74,10 @@ python simulador.py --max-ticks 100  # acotar duración
 
 La velocidad por defecto es `simulacion.fps` en `config.json`.
 
+**Leyenda de la grilla** (colores y objetos del render): ver
+[`salidas/leyenda.png`](salidas/leyenda.png). Si modificás los colores en
+`simulador._render()`, regenerá la imagen con `python leyenda.py`.
+
 ## Salidas
 
 Tras una corrida se generan dos archivos en `salidas/`:
