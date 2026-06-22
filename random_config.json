@@ -1,0 +1,185 @@
+{
+  "grilla": {
+    "ancho": 15,
+    "alto": 15
+  },
+  "obstaculos_fijos": [
+    {
+      "x": 8,
+      "y": 0
+    },
+    {
+      "x": 7,
+      "y": 14
+    },
+    {
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "obstaculos_moviles": [
+    {
+      "id": "om1",
+      "x": 2,
+      "y": 14
+    }
+  ],
+  "estaciones_recarga": [
+    {
+      "x": 12,
+      "y": 4
+    },
+    {
+      "x": 0,
+      "y": 5
+    }
+  ],
+  "zonas_espera": [
+    {
+      "x": 6,
+      "y": 6
+    },
+    {
+      "x": 9,
+      "y": 4
+    }
+  ],
+  "celdas_sucias_iniciales": [
+    {
+      "x": 0,
+      "y": 6
+    },
+    {
+      "x": 5,
+      "y": 13
+    },
+    {
+      "x": 10,
+      "y": 12
+    },
+    {
+      "x": 1,
+      "y": 6
+    }
+  ],
+  "objetos_pesados": [
+    {
+      "id": "obj1",
+      "x": 13,
+      "y": 2
+    }
+  ],
+  "simulacion": {
+    "max_ticks": 300,
+    "tasa_recarga": 25,
+    "prolog_cada_n_ticks": 50,
+    "semilla": 42,
+    "fps": 2
+  },
+  "eventos": {
+    "nuevas_sucias": [
+      {
+        "tick": 3,
+        "x": 11,
+        "y": 14
+      },
+      {
+        "tick": 15,
+        "x": 11,
+        "y": 9
+      }
+    ],
+    "averias": [
+      {
+        "tick": 7,
+        "agente": "a1"
+      }
+    ],
+    "obstaculos_moviles_patron": [
+      {
+        "id": "om1",
+        "ruta": [
+          {
+            "x": 2,
+            "y": 14
+          },
+          {
+            "x": 1,
+            "y": 14
+          },
+          {
+            "x": 2,
+            "y": 14
+          }
+        ]
+      }
+    ]
+  },
+  "agentes": [
+    {
+      "id": "a1",
+      "capacidades": [
+        "limpieza"
+      ],
+      "posicion_inicial": {
+        "x": 1,
+        "y": 2
+      },
+      "energia_maxima": 100,
+      "energia_inicial": 100,
+      "costo_mover": 1,
+      "costo_accion": 3,
+      "umbral_recarga": 20,
+      "estado_inicial": "libre"
+    },
+    {
+      "id": "a2",
+      "capacidades": [
+        "limpieza"
+      ],
+      "posicion_inicial": {
+        "x": 10,
+        "y": 3
+      },
+      "energia_maxima": 100,
+      "energia_inicial": 100,
+      "costo_mover": 1,
+      "costo_accion": 3,
+      "umbral_recarga": 20,
+      "estado_inicial": "libre"
+    },
+    {
+      "id": "a3",
+      "capacidades": [
+        "transporte"
+      ],
+      "posicion_inicial": {
+        "x": 7,
+        "y": 8
+      },
+      "energia_maxima": 140,
+      "energia_inicial": 140,
+      "costo_mover": 2,
+      "costo_accion": 5,
+      "umbral_recarga": 30,
+      "estado_inicial": "libre"
+    },
+    {
+      "id": "a4",
+      "capacidades": [
+        "transporte",
+        "supervision"
+      ],
+      "posicion_inicial": {
+        "x": 7,
+        "y": 6
+      },
+      "energia_maxima": 140,
+      "energia_inicial": 140,
+      "costo_mover": 2,
+      "costo_accion": 5,
+      "umbral_recarga": 30,
+      "estado_inicial": "libre"
+    }
+  ]
+}
